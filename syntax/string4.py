@@ -1,0 +1,5 @@
+#positional formating
+print('to {}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt {} ut labore et dolore magna aliqua. Ut enim ad apple minim veniam, quis nostrud exercitation apple ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor {} in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat {} cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'.format('maybe', 14, 'maybe', 14))
+
+#Named placeholder
+print('to {name}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt {age:d} ut labore et dolore magna aliqua. Ut enim ad apple minim veniam, quis nostrud exercitation apple ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor {name} in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat {age} cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'.format(name='maybe', age=16))
